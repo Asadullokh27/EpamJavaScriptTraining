@@ -1,3 +1,4 @@
+
 const assert = require('assert');
 const {getSum, greeting, isSquare} = require('../src');
 
@@ -38,4 +39,3 @@ describe('isSquare', () => {
         assert.strictEqual(isSquare(1), true);
     });
 });
-
